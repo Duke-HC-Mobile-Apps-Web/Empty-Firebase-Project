@@ -1,505 +1,1117 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		725C7B0E1CB5D1C400698806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C7B0D1CB5D1C400698806 /* AppDelegate.swift */; };
-		725C7B101CB5D1C400698806 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C7B0F1CB5D1C400698806 /* ViewController.swift */; };
-		725C7B131CB5D1C400698806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725C7B111CB5D1C400698806 /* Main.storyboard */; };
-		725C7B151CB5D1C400698806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725C7B141CB5D1C400698806 /* Assets.xcassets */; };
-		725C7B181CB5D1C400698806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725C7B161CB5D1C400698806 /* LaunchScreen.storyboard */; };
-		725C7B231CB5D1C400698806 /* Empty_FirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C7B221CB5D1C400698806 /* Empty_FirebaseTests.swift */; };
-		725C7B2E1CB5D1C400698806 /* Empty_FirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C7B2D1CB5D1C400698806 /* Empty_FirebaseUITests.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		725C7B1F1CB5D1C400698806 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 725C7B021CB5D1C300698806 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 725C7B091CB5D1C300698806;
-			remoteInfo = "Empty Firebase";
-		};
-		725C7B2A1CB5D1C400698806 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 725C7B021CB5D1C300698806 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 725C7B091CB5D1C300698806;
-			remoteInfo = "Empty Firebase";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		725C7B0A1CB5D1C300698806 /* Empty Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Empty Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		725C7B0D1CB5D1C400698806 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		725C7B0F1CB5D1C400698806 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		725C7B121CB5D1C400698806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		725C7B141CB5D1C400698806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		725C7B171CB5D1C400698806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		725C7B191CB5D1C400698806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		725C7B1E1CB5D1C400698806 /* Empty FirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Empty FirebaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		725C7B221CB5D1C400698806 /* Empty_FirebaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty_FirebaseTests.swift; sourceTree = "<group>"; };
-		725C7B241CB5D1C400698806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		725C7B291CB5D1C400698806 /* Empty FirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Empty FirebaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		725C7B2D1CB5D1C400698806 /* Empty_FirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty_FirebaseUITests.swift; sourceTree = "<group>"; };
-		725C7B2F1CB5D1C400698806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		725C7B071CB5D1C300698806 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		725C7B1B1CB5D1C400698806 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		725C7B261CB5D1C400698806 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		725C7B011CB5D1C300698806 = {
-			isa = PBXGroup;
-			children = (
-				725C7B0C1CB5D1C300698806 /* Empty Firebase */,
-				725C7B211CB5D1C400698806 /* Empty FirebaseTests */,
-				725C7B2C1CB5D1C400698806 /* Empty FirebaseUITests */,
-				725C7B0B1CB5D1C300698806 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		725C7B0B1CB5D1C300698806 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				725C7B0A1CB5D1C300698806 /* Empty Firebase.app */,
-				725C7B1E1CB5D1C400698806 /* Empty FirebaseTests.xctest */,
-				725C7B291CB5D1C400698806 /* Empty FirebaseUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		725C7B0C1CB5D1C300698806 /* Empty Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				725C7B0D1CB5D1C400698806 /* AppDelegate.swift */,
-				725C7B0F1CB5D1C400698806 /* ViewController.swift */,
-				725C7B111CB5D1C400698806 /* Main.storyboard */,
-				725C7B141CB5D1C400698806 /* Assets.xcassets */,
-				725C7B161CB5D1C400698806 /* LaunchScreen.storyboard */,
-				725C7B191CB5D1C400698806 /* Info.plist */,
-			);
-			path = "Empty Firebase";
-			sourceTree = "<group>";
-		};
-		725C7B211CB5D1C400698806 /* Empty FirebaseTests */ = {
-			isa = PBXGroup;
-			children = (
-				725C7B221CB5D1C400698806 /* Empty_FirebaseTests.swift */,
-				725C7B241CB5D1C400698806 /* Info.plist */,
-			);
-			path = "Empty FirebaseTests";
-			sourceTree = "<group>";
-		};
-		725C7B2C1CB5D1C400698806 /* Empty FirebaseUITests */ = {
-			isa = PBXGroup;
-			children = (
-				725C7B2D1CB5D1C400698806 /* Empty_FirebaseUITests.swift */,
-				725C7B2F1CB5D1C400698806 /* Info.plist */,
-			);
-			path = "Empty FirebaseUITests";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		725C7B091CB5D1C300698806 /* Empty Firebase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 725C7B321CB5D1C400698806 /* Build configuration list for PBXNativeTarget "Empty Firebase" */;
-			buildPhases = (
-				725C7B061CB5D1C300698806 /* Sources */,
-				725C7B071CB5D1C300698806 /* Frameworks */,
-				725C7B081CB5D1C300698806 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Empty Firebase";
-			productName = "Empty Firebase";
-			productReference = 725C7B0A1CB5D1C300698806 /* Empty Firebase.app */;
-			productType = "com.apple.product-type.application";
-		};
-		725C7B1D1CB5D1C400698806 /* Empty FirebaseTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 725C7B351CB5D1C400698806 /* Build configuration list for PBXNativeTarget "Empty FirebaseTests" */;
-			buildPhases = (
-				725C7B1A1CB5D1C400698806 /* Sources */,
-				725C7B1B1CB5D1C400698806 /* Frameworks */,
-				725C7B1C1CB5D1C400698806 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				725C7B201CB5D1C400698806 /* PBXTargetDependency */,
-			);
-			name = "Empty FirebaseTests";
-			productName = "Empty FirebaseTests";
-			productReference = 725C7B1E1CB5D1C400698806 /* Empty FirebaseTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		725C7B281CB5D1C400698806 /* Empty FirebaseUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 725C7B381CB5D1C400698806 /* Build configuration list for PBXNativeTarget "Empty FirebaseUITests" */;
-			buildPhases = (
-				725C7B251CB5D1C400698806 /* Sources */,
-				725C7B261CB5D1C400698806 /* Frameworks */,
-				725C7B271CB5D1C400698806 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				725C7B2B1CB5D1C400698806 /* PBXTargetDependency */,
-			);
-			name = "Empty FirebaseUITests";
-			productName = "Empty FirebaseUITests";
-			productReference = 725C7B291CB5D1C400698806 /* Empty FirebaseUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		725C7B021CB5D1C300698806 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = "Davis Gossage";
-				TargetAttributes = {
-					725C7B091CB5D1C300698806 = {
-						CreatedOnToolsVersion = 7.3;
-					};
-					725C7B1D1CB5D1C400698806 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 725C7B091CB5D1C300698806;
-					};
-					725C7B281CB5D1C400698806 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 725C7B091CB5D1C300698806;
-					};
-				};
-			};
-			buildConfigurationList = 725C7B051CB5D1C300698806 /* Build configuration list for PBXProject "Empty Firebase" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 725C7B011CB5D1C300698806;
-			productRefGroup = 725C7B0B1CB5D1C300698806 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				725C7B091CB5D1C300698806 /* Empty Firebase */,
-				725C7B1D1CB5D1C400698806 /* Empty FirebaseTests */,
-				725C7B281CB5D1C400698806 /* Empty FirebaseUITests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		725C7B081CB5D1C300698806 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				725C7B181CB5D1C400698806 /* LaunchScreen.storyboard in Resources */,
-				725C7B151CB5D1C400698806 /* Assets.xcassets in Resources */,
-				725C7B131CB5D1C400698806 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		725C7B1C1CB5D1C400698806 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		725C7B271CB5D1C400698806 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		725C7B061CB5D1C300698806 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				725C7B101CB5D1C400698806 /* ViewController.swift in Sources */,
-				725C7B0E1CB5D1C400698806 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		725C7B1A1CB5D1C400698806 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				725C7B231CB5D1C400698806 /* Empty_FirebaseTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		725C7B251CB5D1C400698806 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				725C7B2E1CB5D1C400698806 /* Empty_FirebaseUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		725C7B201CB5D1C400698806 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 725C7B091CB5D1C300698806 /* Empty Firebase */;
-			targetProxy = 725C7B1F1CB5D1C400698806 /* PBXContainerItemProxy */;
-		};
-		725C7B2B1CB5D1C400698806 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 725C7B091CB5D1C300698806 /* Empty Firebase */;
-			targetProxy = 725C7B2A1CB5D1C400698806 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		725C7B111CB5D1C400698806 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				725C7B121CB5D1C400698806 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		725C7B161CB5D1C400698806 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				725C7B171CB5D1C400698806 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		725C7B301CB5D1C400698806 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		725C7B311CB5D1C400698806 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		725C7B331CB5D1C400698806 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Empty Firebase/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.davisgossage.Empty-Firebase";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		725C7B341CB5D1C400698806 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Empty Firebase/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.davisgossage.Empty-Firebase";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		725C7B361CB5D1C400698806 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Empty FirebaseTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.davisgossage.Empty-FirebaseTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Empty Firebase.app/Empty Firebase";
-			};
-			name = Debug;
-		};
-		725C7B371CB5D1C400698806 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Empty FirebaseTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.davisgossage.Empty-FirebaseTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Empty Firebase.app/Empty Firebase";
-			};
-			name = Release;
-		};
-		725C7B391CB5D1C400698806 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "Empty FirebaseUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.davisgossage.Empty-FirebaseUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Empty Firebase";
-			};
-			name = Debug;
-		};
-		725C7B3A1CB5D1C400698806 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "Empty FirebaseUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.davisgossage.Empty-FirebaseUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Empty Firebase";
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		725C7B051CB5D1C300698806 /* Build configuration list for PBXProject "Empty Firebase" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				725C7B301CB5D1C400698806 /* Debug */,
-				725C7B311CB5D1C400698806 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		725C7B321CB5D1C400698806 /* Build configuration list for PBXNativeTarget "Empty Firebase" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				725C7B331CB5D1C400698806 /* Debug */,
-				725C7B341CB5D1C400698806 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		725C7B351CB5D1C400698806 /* Build configuration list for PBXNativeTarget "Empty FirebaseTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				725C7B361CB5D1C400698806 /* Debug */,
-				725C7B371CB5D1C400698806 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		725C7B381CB5D1C400698806 /* Build configuration list for PBXNativeTarget "Empty FirebaseUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				725C7B391CB5D1C400698806 /* Debug */,
-				725C7B3A1CB5D1C400698806 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 725C7B021CB5D1C300698806 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>0458B0F9C9953B88168D2F0A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>27F9AAC3BA24B72A76261CA7</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>84981BE8A4E2A843B749B6B7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2B5934CD69297246A75FB2E0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>70F907A39D601C900A8E929E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>725C7B011CB5D1C300698806</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>725C7B0C1CB5D1C300698806</string>
+				<string>725C7B211CB5D1C400698806</string>
+				<string>725C7B2C1CB5D1C400698806</string>
+				<string>725C7B0B1CB5D1C300698806</string>
+				<string>A0F3E1E32DAF21F16BF40D07</string>
+				<string>27F9AAC3BA24B72A76261CA7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>725C7B021CB5D1C300698806</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0730</string>
+				<key>LastUpgradeCheck</key>
+				<string>0730</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Davis Gossage</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>725C7B091CB5D1C300698806</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3</string>
+					</dict>
+					<key>725C7B1D1CB5D1C400698806</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3</string>
+						<key>TestTargetID</key>
+						<string>725C7B091CB5D1C300698806</string>
+					</dict>
+					<key>725C7B281CB5D1C400698806</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3</string>
+						<key>TestTargetID</key>
+						<string>725C7B091CB5D1C300698806</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>725C7B051CB5D1C300698806</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>725C7B011CB5D1C300698806</string>
+			<key>productRefGroup</key>
+			<string>725C7B0B1CB5D1C300698806</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>725C7B091CB5D1C300698806</string>
+				<string>725C7B1D1CB5D1C400698806</string>
+				<string>725C7B281CB5D1C400698806</string>
+			</array>
+		</dict>
+		<key>725C7B051CB5D1C300698806</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>725C7B301CB5D1C400698806</string>
+				<string>725C7B311CB5D1C400698806</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>725C7B061CB5D1C300698806</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>725C7B101CB5D1C400698806</string>
+				<string>725C7B0E1CB5D1C400698806</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>725C7B071CB5D1C300698806</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>927B8D423F9ED9C5AFB07C38</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>725C7B081CB5D1C300698806</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>725C7B181CB5D1C400698806</string>
+				<string>725C7B151CB5D1C400698806</string>
+				<string>725C7B131CB5D1C400698806</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>725C7B091CB5D1C300698806</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>725C7B321CB5D1C400698806</string>
+			<key>buildPhases</key>
+			<array>
+				<string>0458B0F9C9953B88168D2F0A</string>
+				<string>725C7B061CB5D1C300698806</string>
+				<string>725C7B071CB5D1C300698806</string>
+				<string>725C7B081CB5D1C300698806</string>
+				<string>2B5934CD69297246A75FB2E0</string>
+				<string>70F907A39D601C900A8E929E</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Empty Firebase</string>
+			<key>productName</key>
+			<string>Empty Firebase</string>
+			<key>productReference</key>
+			<string>725C7B0A1CB5D1C300698806</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>725C7B0A1CB5D1C300698806</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Empty Firebase.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>725C7B0B1CB5D1C300698806</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>725C7B0A1CB5D1C300698806</string>
+				<string>725C7B1E1CB5D1C400698806</string>
+				<string>725C7B291CB5D1C400698806</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>725C7B0C1CB5D1C300698806</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>725C7B0D1CB5D1C400698806</string>
+				<string>725C7B0F1CB5D1C400698806</string>
+				<string>725C7B111CB5D1C400698806</string>
+				<string>725C7B141CB5D1C400698806</string>
+				<string>725C7B161CB5D1C400698806</string>
+				<string>725C7B191CB5D1C400698806</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Empty Firebase</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>725C7B0D1CB5D1C400698806</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>AppDelegate.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>725C7B0E1CB5D1C400698806</key>
+		<dict>
+			<key>fileRef</key>
+			<string>725C7B0D1CB5D1C400698806</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>725C7B0F1CB5D1C400698806</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>ViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>725C7B101CB5D1C400698806</key>
+		<dict>
+			<key>fileRef</key>
+			<string>725C7B0F1CB5D1C400698806</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>725C7B111CB5D1C400698806</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>725C7B121CB5D1C400698806</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>725C7B121CB5D1C400698806</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>725C7B131CB5D1C400698806</key>
+		<dict>
+			<key>fileRef</key>
+			<string>725C7B111CB5D1C400698806</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>725C7B141CB5D1C400698806</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>725C7B151CB5D1C400698806</key>
+		<dict>
+			<key>fileRef</key>
+			<string>725C7B141CB5D1C400698806</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>725C7B161CB5D1C400698806</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>725C7B171CB5D1C400698806</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>725C7B171CB5D1C400698806</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>725C7B181CB5D1C400698806</key>
+		<dict>
+			<key>fileRef</key>
+			<string>725C7B161CB5D1C400698806</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>725C7B191CB5D1C400698806</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>725C7B1A1CB5D1C400698806</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>725C7B231CB5D1C400698806</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>725C7B1B1CB5D1C400698806</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>725C7B1C1CB5D1C400698806</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>725C7B1D1CB5D1C400698806</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>725C7B351CB5D1C400698806</string>
+			<key>buildPhases</key>
+			<array>
+				<string>725C7B1A1CB5D1C400698806</string>
+				<string>725C7B1B1CB5D1C400698806</string>
+				<string>725C7B1C1CB5D1C400698806</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>725C7B201CB5D1C400698806</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Empty FirebaseTests</string>
+			<key>productName</key>
+			<string>Empty FirebaseTests</string>
+			<key>productReference</key>
+			<string>725C7B1E1CB5D1C400698806</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>725C7B1E1CB5D1C400698806</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Empty FirebaseTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>725C7B1F1CB5D1C400698806</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>725C7B021CB5D1C300698806</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>725C7B091CB5D1C300698806</string>
+			<key>remoteInfo</key>
+			<string>Empty Firebase</string>
+		</dict>
+		<key>725C7B201CB5D1C400698806</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>725C7B091CB5D1C300698806</string>
+			<key>targetProxy</key>
+			<string>725C7B1F1CB5D1C400698806</string>
+		</dict>
+		<key>725C7B211CB5D1C400698806</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>725C7B221CB5D1C400698806</string>
+				<string>725C7B241CB5D1C400698806</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Empty FirebaseTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>725C7B221CB5D1C400698806</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>Empty_FirebaseTests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>725C7B231CB5D1C400698806</key>
+		<dict>
+			<key>fileRef</key>
+			<string>725C7B221CB5D1C400698806</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>725C7B241CB5D1C400698806</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>725C7B251CB5D1C400698806</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>725C7B2E1CB5D1C400698806</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>725C7B261CB5D1C400698806</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>725C7B271CB5D1C400698806</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>725C7B281CB5D1C400698806</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>725C7B381CB5D1C400698806</string>
+			<key>buildPhases</key>
+			<array>
+				<string>725C7B251CB5D1C400698806</string>
+				<string>725C7B261CB5D1C400698806</string>
+				<string>725C7B271CB5D1C400698806</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>725C7B2B1CB5D1C400698806</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Empty FirebaseUITests</string>
+			<key>productName</key>
+			<string>Empty FirebaseUITests</string>
+			<key>productReference</key>
+			<string>725C7B291CB5D1C400698806</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.ui-testing</string>
+		</dict>
+		<key>725C7B291CB5D1C400698806</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Empty FirebaseUITests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>725C7B2A1CB5D1C400698806</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>725C7B021CB5D1C300698806</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>725C7B091CB5D1C300698806</string>
+			<key>remoteInfo</key>
+			<string>Empty Firebase</string>
+		</dict>
+		<key>725C7B2B1CB5D1C400698806</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>725C7B091CB5D1C300698806</string>
+			<key>targetProxy</key>
+			<string>725C7B2A1CB5D1C400698806</string>
+		</dict>
+		<key>725C7B2C1CB5D1C400698806</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>725C7B2D1CB5D1C400698806</string>
+				<string>725C7B2F1CB5D1C400698806</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Empty FirebaseUITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>725C7B2D1CB5D1C400698806</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>Empty_FirebaseUITests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>725C7B2E1CB5D1C400698806</key>
+		<dict>
+			<key>fileRef</key>
+			<string>725C7B2D1CB5D1C400698806</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>725C7B2F1CB5D1C400698806</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>725C7B301CB5D1C400698806</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>725C7B311CB5D1C400698806</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>725C7B321CB5D1C400698806</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>725C7B331CB5D1C400698806</string>
+				<string>725C7B341CB5D1C400698806</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>725C7B331CB5D1C400698806</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>F5DD2F5FD8E226EFA9E3DF96</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Empty Firebase/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.davisgossage.Empty-Firebase</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>725C7B341CB5D1C400698806</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>D6493D6A191B5862FF684F7F</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Empty Firebase/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.davisgossage.Empty-Firebase</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>725C7B351CB5D1C400698806</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>725C7B361CB5D1C400698806</string>
+				<string>725C7B371CB5D1C400698806</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>725C7B361CB5D1C400698806</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Empty FirebaseTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.davisgossage.Empty-FirebaseTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Empty Firebase.app/Empty Firebase</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>725C7B371CB5D1C400698806</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Empty FirebaseTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.davisgossage.Empty-FirebaseTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Empty Firebase.app/Empty Firebase</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>725C7B381CB5D1C400698806</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>725C7B391CB5D1C400698806</string>
+				<string>725C7B3A1CB5D1C400698806</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>725C7B391CB5D1C400698806</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>Empty FirebaseUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.davisgossage.Empty-FirebaseUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>Empty Firebase</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>725C7B3A1CB5D1C400698806</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>Empty FirebaseUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.davisgossage.Empty-FirebaseUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>Empty Firebase</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>84981BE8A4E2A843B749B6B7</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>927B8D423F9ED9C5AFB07C38</key>
+		<dict>
+			<key>fileRef</key>
+			<string>84981BE8A4E2A843B749B6B7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A0F3E1E32DAF21F16BF40D07</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F5DD2F5FD8E226EFA9E3DF96</string>
+				<string>D6493D6A191B5862FF684F7F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D6493D6A191B5862FF684F7F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F5DD2F5FD8E226EFA9E3DF96</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>725C7B021CB5D1C300698806</string>
+</dict>
+</plist>
